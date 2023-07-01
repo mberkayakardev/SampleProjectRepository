@@ -1,0 +1,12 @@
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\bin\Debug\net5.0\AkarEntities.deps.json
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\bin\Debug\net5.0\AkarEntities.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\bin\Debug\net5.0\AkarEntities.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.csproj.AssemblyReference.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.AssemblyInfoInputs.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.AssemblyInfo.cs
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.csproj.CoreCompileInputs.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\refint\AkarEntities.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\AkarEntities.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarEntities\obj\Debug\net5.0\ref\AkarEntities.dll

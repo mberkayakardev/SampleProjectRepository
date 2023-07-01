@@ -1,0 +1,83 @@
+﻿@using AkarEntities.Entities;
+
+@model Group
+
+<p> Grup Sayfası </p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h2>Üyeler</h2>
+            <br />
+            <hr />
+            <br />
+            <ul>
+                @foreach (var item in Model.MembersList)
+                {
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="@item.UserPhoto" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.UserName</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Üye ile iletişime geç </a>
+                        </div>
+                    </div>
+                }
+            </ul>
+
+        </div>
+        <div class="col-8">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-xl">Gruba Yeni Üyeler Almaya Ne Dersin ? </button>
+            }
+            <div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Extra large modal -->
+
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="container">
+                <br />
+                <form asp-controller="Group" asp-action="TokenOlustur" method="post">
+                    <div class="row">
+                        @if (Model.IsPublicOrPrivate == false)
+                        {
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Gizli Token Kim İçin Oluşturulacak ?  </label>
+                                    <input type="text" class="form-control" name="UserName" placeholder="USer bilgisi giriniz. ">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-check-label">Herkese Açık ?</label>
+                                <input type="text" class="form-control" name="GroupId" value="@Model.Id" hidden />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        }
+                        else
+                        {
+                            <p> Group Herkese Açık Olduğu için herkes bu gruba dahil olabilir lütfen grup id sini karşı taraf ile paylaşınız  </p>
+                            <br />
+                            <hr />
+                            <p class="text-center">
+                                @Model.Id
+                            </p>
+                            <hr />
+                        }
+                    </div>
+                </form>
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+
+

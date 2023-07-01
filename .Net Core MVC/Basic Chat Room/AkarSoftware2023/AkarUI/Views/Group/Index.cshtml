@@ -1,0 +1,141 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+
+
+@using AkarEntities.Dtos;
+@model List<ListGroupDto>
+@{
+    ViewData["Title"] = "Grup Sayfası";
+    string KatilimGosterButton(ListGroupDto item)
+    {
+        return "";
+    }
+}
+
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/css/bootstrap-switch-button.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap-switch-button@1.1.0/dist/bootstrap-switch-button.min.js"></script>
+
+<div class="text-center">
+    <h1 class="display-4">Gruplar Aşağıdaki Gibi Listelenmiştir. </h1>
+    <br /><br />
+    <div class="row">
+        <form class="form-control form-control-lg form-inline">
+            <div class="col-4">
+                <label class="" for="AranacakGrupAdi">Grup Adi Yada İd</label>
+            </div>
+            <div class="col-6">
+                <input type="text" id="staticEmail2" placeholder="Aranacak Grup Adini Yada id Bilgisini giriniz">
+            </div>
+            <div class="col-2">
+                <button class="" type="submit" class="btn btn-success btn-block ">Ara</button>
+            </div>
+        </form>
+    </div>
+    <br />
+    @if (!String.IsNullOrEmpty(ViewBag.Mesaj))
+    {
+        <div class="alert alert-primary" role="alert">
+            @ViewBag.Mesaj;
+        </div>
+    }
+    else
+    {
+
+        @if (Model.Count == 0)
+        {
+            <div class="alert alert-primary" role="alert">
+                Sistemde Hiçbir Grup Bulunamadı Lütfen Adminler ile iletişime geçiniz...
+            </div>
+        }
+        else
+        {
+
+            <div class="alert alert-primary" role="alert">
+                Kullanabileceğiniz @Model.Count adet Grup Listelenmiştir.
+            </div>
+
+
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Grup Adı </th>
+                        <th scope="col">Gruptaki Kişi Sayısı </th>
+                        <th scope="col">Grup Oluşturulma Tarihi </th>
+                        <th scope="col">Oluşturan Kişi </th>
+                        <th scope="col">Grup id bilgisi </th>
+                        <th scope="col">Herkese Açık mı ? </th>
+                        <th scope="col">Gruba Katılım Göster </th>
+
+
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><a asp-controller="Group" asp-action="Detail" asp-route-id="@item.Id"> @item.GroupName  </a></td>
+                            <td>@item.MembersList.Count</td>
+                            <td>@item.CreateDate</td>
+                            <td>@item.CreateUser</td>
+                            <td>@item.Id</td>
+                            <td>@((item.IsPublicOrPrivate == true) ? "Evet" : "Hayır")</td>
+                            <td>
+                                @if (item.KatilimSaglanabilirmi == true)
+                                {
+                                    <a asp-controller="Group" asp-action="JoinTheGroup" asp-route-id="@item.Id" class="btn btn-success"> Katil  </a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</div>
+
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <!-- Extra large modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Extra large modal</button>
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="container">
+                    <br />
+                    <form asp-controller="Group" asp-action="CreateGroup" asp-for"GroupId" method="post">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Grup Adi</label>
+                                    <input type="text" class="form-control" name="GroupName" placeholder="Grup Adı Giriniz">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-check-label">Herkese Açık ?</label>
+                                <input type="checkbox" data-toggle="switchbutton" name="IsPublicOrPrivate" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Maximum kullanıcı Sayısı</label>
+                            <input type="text" class="form-control" name="MaxUserCount" id="exampleInputPassword1" placeholder="Maximum Kullanıcı Sayısı">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a asp-controller="Token" , asp-action="Index" class="btn btn-dark" >Token İle Giriş yapmak istermisiniz ? </a>
+}
+else
+{
+    <p> Yeni Bir grup oluşturmak yada katılmak için login olmanız gerekmektedir. </p>
+}

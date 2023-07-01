@@ -1,0 +1,17 @@
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.csproj.AssemblyReference.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.AssemblyInfoInputs.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.AssemblyInfo.cs
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.csproj.CoreCompileInputs.cache
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarBusiness.deps.json
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarBusiness.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarBusiness.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarDataAccess.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarEntities.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarDataAccess.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\bin\Debug\net5.0\AkarEntities.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.csproj.CopyComplete
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\refint\AkarBusiness.dll
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\AkarBusiness.pdb
+D:\Git Project\SampleProjectRepository\.Net Core MVC\Basic Chat Room\AkarSoftware2023\AkarBusiness\obj\Debug\net5.0\ref\AkarBusiness.dll

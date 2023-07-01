@@ -1,0 +1,11 @@
+﻿<div class="container">
+    <h1 class="text-center"> Token İle Join</h1>
+    <br />
+    <hr />
+    <br />
+    <p> Gizli Gruplara Sadece Token ile giriş yapılabilmektedir. Bu sebepten ötürü adınıza oluşturulmuş bir token var ise bununla giriş yapabilirsiniz</p>
+    <form asp-action="Index" asp-controller="Token" method="post">
+        <input name="Token" type="text" />
+        <button class="btn btn-danger" type="submit"> Aktive Ol </button>
+    </form>
+</div>
