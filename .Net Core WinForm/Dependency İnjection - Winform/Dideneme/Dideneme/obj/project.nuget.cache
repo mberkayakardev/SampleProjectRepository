@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yqLZukurmhAJ7K7SkbqSJTzH4SXGDUZVY+PS2WF1Apq8sOZCmg+GIYbJy6OU+/OHsmZ+PfPkPegcFLjbiz37og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\Dideneme\\Dideneme\\Dideneme.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
