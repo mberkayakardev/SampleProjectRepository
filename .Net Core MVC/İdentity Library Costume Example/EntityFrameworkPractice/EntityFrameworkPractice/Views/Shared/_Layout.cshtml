@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <a asp-action="Create" asp-controller="Home"> Kayıt ol </a>
+        @if (User.Identities.Any())
+        {
+            <a asp-action="Login" asp-controller="Home"> Giriş yap </a>
+        }
+        else
+        {
+            <a asp-action="Logout" asp-controller="Home"> Çıkış yap </a>
+        }
+        <a asp-action="Hosgeldin" asp-controller="Home"> Hosgeldiniz (Sadece Authorize) </a>
+        <a asp-action="Logout" asp-controller="Home"> Çıkış Yap </a>
+    </div>
+    <hr />
+    <br />
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

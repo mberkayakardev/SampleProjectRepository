@@ -1,0 +1,18 @@
+﻿@model UserCreateDto
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-action="Create" asp-controller="Home" method="post">
+    <label> USername </label>
+    <input asp-for="@Model.UserNAme" />
+
+    <label> Password </label>
+    <input asp-for="@Model.Password" />
+
+    <label> Email </label>
+    <input asp-for="@Model.Email" />
+
+    <button type="submit"> KAydet </button>
+
+</form>

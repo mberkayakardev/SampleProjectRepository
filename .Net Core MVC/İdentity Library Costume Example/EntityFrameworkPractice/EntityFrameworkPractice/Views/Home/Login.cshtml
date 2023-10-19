@@ -1,0 +1,22 @@
+﻿@model LoginDto
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<br />
+
+<form asp-controller="Home" asp-action="Login" method="post">
+    <label> Kullanıcı adı </label>
+    <input asp-for="@Model.UserName" />
+    <br />
+    <label> Şifre </label>
+    <input asp-for="@Model.Password" />
+    <br />
+    <label>Beni Hatirla </label>
+    <input asp-for="@Model.Rememberme" />
+    <br />
+    <br />
+    <button type="submit"> Giriş yap </button>
+</form>

@@ -1,0 +1,20 @@
+﻿@using System.Security.Claims;
+<h1 style="text-align: center"> Hoşgeldiniz  </h1>
+
+<br />
+<hr />
+<br />
+<h1>
+    @if (User == null)
+    {
+        @("İlgili kullanıcı bilgisi bulunamadı")
+    }
+    else
+    {
+        if (User.Claims.Count() != 0)
+        {
+            @User.Claims.FirstOrDefault(x=> x.Type == ClaimTypes.Name).Value
+
+        }
+    }
+</h1>
