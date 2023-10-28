@@ -1,0 +1,150 @@
+﻿@* Tek satır yazmak için @ yeterli *@
+
+@* birden çok satırda kod yazmak içiin ise @{} yeterlidir.  *@
+
+@* tek satırdan kastmız yapılan operasyon sonucunda bir çıktı olmalı,
+
+toplama işlemi, ternary, yada değişken çağırma işlemi için tek @ kullanılabilir *@
+
+@{
+    int yas = 15;
+    string sonuc = string.Empty;
+    if (yas < 15)
+        sonuc = "giremez";
+    else
+        sonuc = "girebilir";
+
+}
+
+<p> sonuc = @sonuc </p>
+<br />
+<hr />
+<p> Sonuc (ternary) :@(yas < 18 ? "giremez" : "girebilir") </p>
+<br />
+<hr />
+
+@*foreac ile bir liste dönebilirsin dönerekn dikkat etmen gereken şey foreach içerisinde bir *@
+
+@{
+    List<string> İsimler = new() { "Ahmet", "mehmet", "hasan", "Hüseyin" };
+}
+
+
+@foreach (var item in İsimler)
+{
+    @item
+    ;
+}
+
+@*yukaruda bak foreac içerisinde ternary bastın html e bastı *@
+
+@{
+
+    var deg1 = "deg1";
+    @deg1
+}
+
+@*Bak foreacs sisz değeri direk bastı iç içe kullanırken sadece html girerse o zaman razor kot*@
+
+@foreach (var item in İsimler)
+{
+    <br />
+    <p> foreach ile razor ve html bitişik kullanılırsa </p>
+    <p>@item</p>
+
+    @*razor dan sonra html başlatırsan bu html içinde tekrar değer ulaşmak için @ koy
+    tekrar değere oluşabilemk için  rtazor kullanırsın ama sadece html arasında 
+    çağırabilmek için misal bunun altında item i iderk yazarsan basar tekrar @ koyaman gerek yok sadece html içindeyse koy
+    algılamıyor çünküğ*@
+    string a;
+    a = item;
+    
+}
+
+@{
+
+    @* Razor içerisinde istenildiği taktirde fonkisyon da tanımlanarak ilgili süreç ele alınabilir *@
+
+    string Selamver(string selam)
+    {
+        return "Selamlar " + selam;
+    }
+
+
+    @Selamver("berkay ")
+}
+@Selamver("berkay ")
+
+
+
+@*
+
+  * bu dersimizde c# cshtml dosyaları içerisinde nasıl html kodları azabileceğimize bakacaız
+
+* cshtml (view dosyalarının içerisinde c# kodu yazmak istiyorsan @ operatonu kullan)
+
+* @ operatörü ile birlikte artık bir c# kodu yazabilirsiniz
+
+* tek satır kod yazmak için @ yeterken birden çok satır için @{} içerisinde yazmanız gerekir.
+
+* foreach ile liste dönebilirsin, dikkat etmen gereken bir nokta var ilgili noktada eğer foreach içerisinde
+html kullanırsan yine bir razor operatorü ile ulaşabilirsin aksi taktirde yazıdğını html kodu sanacaktır.
+
+* razor içerisinde bir razır çağırmak çıktıya sebebiyet verecketir.
+
+@* Tek satır yazmak için @ yeterli *@
+
+@* birden çok satırda kod yazmak içiin ise @{} yeterlidir.  *@
+
+@* tek satırdan kastmız yapılan operasyon sonucunda bir çıktı olmalı,
+
+toplama işlemi, ternary, yada değişken çağırma işlemi için tek @ kullanılabilir
+
+@{
+    int yas = 15;
+    string sonuc = string.Empty;
+    if (yas < 15)
+        sonuc = "giremez";
+    else
+        sonuc = "girebilir";
+
+}
+
+<p> sonuc = @sonuc </p>
+<br />
+<hr />
+<p> Sonuc (ternary) :@(yas < 18 ? "giremez" : "girebilir") </p>
+<br />
+<hr />
+
+@*foreac ile bir liste dönebilirsin dönerekn dikkat etmen gereken şey foreach içerisinde bir
+
+@{
+    List<string> İsimler = new() { "Ahmet", "mehmet", "hasan", "Hüseyin" };
+}
+
+
+@foreach (var item in İsimler)
+{
+    @item
+    ;
+}
+
+@*yukaruda bak foreac içerisinde ternary bastın html e bastı
+
+@{
+
+    var deg1 = "deg1";
+    @deg1
+}
+
+@*Bak foreacs sisz değeri direk bastı iç içe kullanırken sadece html girerse o zaman razor kot
+
+@foreach (var item in İsimler)
+{
+    <br />
+    <p> foreach ile razor ve html bitişik kullanılırsa </p>
+    <p>@item</p>
+}
+
+*@

@@ -1,0 +1,25 @@
+﻿@using WebApplication3.Models
+@model ModelsDeneme
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+</head>
+<body>
+    <title>Index</title>
+
+    <h1> Viewbag datası = @ViewBag.Name</h1>
+    <hr />
+    <h1> ViewData datası = @ViewData["Surname"]</h1>
+    <hr />
+    <h1> TempData  datası = @TempData["Message"] </h1>
+    <hr />
+    <h1> Model datası : @Model.Id + @Model.ProductName</h1>
+</body>
+</html>
