@@ -9,47 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication3
 build_property.RootNamespace = WebApplication3
-build_property.ProjectDir = C:\Users\Muhammed Berkay AKAR\Desktop\WebApplication3\WebApplication3\
+build_property.ProjectDir = D:\Github\SampleProjectRepository-master\.Net Core MVC\MVC GENEL HATLAR\WebApplication3\WebApplication3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Muhammed Berkay AKAR\Desktop\WebApplication3\WebApplication3
+build_property.MSBuildProjectDirectory = D:\Github\SampleProjectRepository-master\.Net Core MVC\MVC GENEL HATLAR\WebApplication3\WebApplication3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/DataTransfer/Ahmet.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/DataTransfer/Ahmet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVRyYW5zZmVyXEFobWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/DataTransfer/details.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/DataTransfer/details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVRyYW5zZmVyXGRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/DataTransfer/Index.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/DataTransfer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVRyYW5zZmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/DataTransfer/Resul.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/DataTransfer/Resul.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YVRyYW5zZmVyXFJlc3VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/Home/Index.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Home/Ahmet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBaG1ldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Home/Hasan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYXNhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/Home/Razordeneme.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Home/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Home/Razordeneme.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYXpvcmRlbmVtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/Redirect/Index.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Redirect/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkaXJlY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/Redirect/Index999.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Redirect/Index999.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkaXJlY3RcSW5kZXg5OTkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammed Berkay AKAR/Desktop/WebApplication3/WebApplication3/Views/Shared/Index.cshtml]
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Shared/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MVC GENEL HATLAR/WebApplication3/WebApplication3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

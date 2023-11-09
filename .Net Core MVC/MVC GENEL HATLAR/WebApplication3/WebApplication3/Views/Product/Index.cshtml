@@ -1,0 +1,51 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebApplication3.Models;
+@model List<Product>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1> Ürünler listesi</h1>
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-danger"> Herhangi bir ürün bulunamadı </div>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Adı </th>
+                    <th>Stok miktarı </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductId</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.UnitStock</td>
+                        @* <td><a asp-action="update" asp-controller="Product" asp-route-id="@item.ProductId"> Güncellemek </a></td> *@
+                        <td><a asp-action="Remove" asp-controller="Product" asp-route-id="@item.ProductId"> Silmek </a></td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    <a href="/Product/Create"> Yeni ürün ekleyiniz </a>
+
+</body>
+</html>

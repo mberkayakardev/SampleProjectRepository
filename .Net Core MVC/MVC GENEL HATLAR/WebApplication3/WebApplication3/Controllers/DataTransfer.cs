@@ -30,6 +30,8 @@ namespace WebApplication3.Controllers
             //Tempdata["name"] = "akar" dersem viewbag içerisidneki name de akara döner birbirleri ile aynı tiplte olup ezebviliriler
             ViewData["Surname"] = "Akar";
             TempData["Message"] = "Selamlama mesajı iletilmiştir";
+            var result = RouteData.Values;
+
             return View(new ModelsDeneme { Id = 123, ProductName = "İphone 14 "});
 
         }
