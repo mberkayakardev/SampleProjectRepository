@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EfCorePractise
-build_property.ProjectDir = C:\Users\Muhammed Berkay AKAR\Desktop\EfCorePractise\EfCorePractise\
+build_property.ProjectDir = D:\Github\SampleProjectRepository-master\.Net Core MVC\EfTekrar\EfCorePractise\EfCorePractise\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

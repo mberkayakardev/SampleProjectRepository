@@ -1,0 +1,27 @@
+﻿@using LastMVCTraining.Models
+
+@{
+    var context = Context.Request.HttpContext.Features.ToList();
+    var context2 = Context.Response.Body;
+    var context3 = Context.Items.ToList();
+
+
+
+
+}
+
+<h1 class="text-danger text-center"> Controller üzerinden View e veri taşıma yöntemleri </h1>
+
+<h1> Bu alan Veri / Index tir. </h1>
+<p> Product Özelliklerim : </p>
+<br />
+<hr />
+@Model.Id  - @Model.Name 
+<hr />
+
+@await Component.InvokeAsync("Akar")
+<hr />
+
+bu etaptan sonra tekrardan vwei / Index e dönüldü. Bu şekidle devamke 
+
+@Model.Id  - @Model.Name

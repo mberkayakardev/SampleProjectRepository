@@ -1,0 +1,38 @@
+﻿<h1 class="text-center text-danger "> Razor Syntax </h1>
+<br />
+
+<p> Ben bir View, bir .cshtml dosyası içerisinde c# kodu yazmak istersem o zaman Razor kullanmam gerekecektir. </p>
+<p> @@ işareti razor manasına gelir eğer sadece @@ ise tek satır, @@{} şeklinde ise çoklu satır için kullanabilirsin </p>
+
+<ul>
+    Tek satırlık @@ (Razor) kullanım alanları 
+    <li>1. View içerisindeki değişkeni html olarak basmak ( çıktı verecektir. )</li>
+    <li>2. Ternary                                        ( Ternary operatörü her zaman bizlere çıktı verecektir. )</li>
+    <li>() parantezleri için direkt olarak yapılan işlemin çıtkısı varsa aritemetik toplama logic vs vs (çıktısı olacak)</li>
+    <li> viewde void olmayan bir dönüşümüz varsa dönüşlü method çağırmak </li>
+</ul>
+
+
+<br /> 
+<p> diğerleri bilineceği üzere zaten normal fonksiyonlardır .</p>
+
+<hr /></br>
+<hr /></br>
+<hr /></br>
+<h1 class= "text-center text-danger "> Razor denemeleri </h1>
+
+@{
+    string degisken1 = "Merhaba dünya";
+    degisken1 = degisken1 + " - ";
+    <h1> Görüleceğü üzere @@ kullanırsak iç iç iki @@ o zaman çıktı veriyor </h1>
+    @degisken1
+}
+
+@{
+    List<string> DenemeListesi = new() { "Ahmet", "Mehmet,", degisken1 };
+    foreach (var item in DenemeListesi)
+    {
+        @item;
+    }
+}
+    

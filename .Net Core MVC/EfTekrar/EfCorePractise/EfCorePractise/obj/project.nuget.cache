@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9paQj/IpI740d6B8eAZUo0rVqsQKchCbL1E4EvKVaiBEBpHJ1z0Hr3ZUJH4+Vy7nI8tad1uQKWdX/CzT05G5xg==",
+  "dgSpecHash": "PLEEFZhMJgcGdL0mtvZLak4lM7CQed1Wb861qb8lBiIyBhSfNIXQvKFlLpQ/TMucre1ZYUEWpaUBvN8LtSzLxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\EfCorePractise.csproj",
+  "projectFilePath": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\EfCorePractise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

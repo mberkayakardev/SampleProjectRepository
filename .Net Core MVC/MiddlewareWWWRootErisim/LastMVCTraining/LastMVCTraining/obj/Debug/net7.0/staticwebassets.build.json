@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "JdsMbW7ZKxzP7IKRkTGh/asHliwvxQf3eeEerlyHgBo=",
+  "Source": "LastMVCTraining",
+  "BasePath": "_content/LastMVCTraining",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LastMVCTraining\\wwwroot",
+      "Source": "LastMVCTraining",
+      "ContentRoot": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\MiddlewareWWWRootErisim\\LastMVCTraining\\LastMVCTraining\\wwwroot\\",
+      "BasePath": "_content/LastMVCTraining",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LastMVCTraining
+build_property.RootNamespace = LastMVCTraining
+build_property.ProjectDir = D:\Github\SampleProjectRepository-master\.Net Core MVC\MiddlewareWWWRootErisim\LastMVCTraining\LastMVCTraining\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Github\SampleProjectRepository-master\.Net Core MVC\MiddlewareWWWRootErisim\LastMVCTraining\LastMVCTraining
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Berkay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVya2F5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Mcv/Ahmet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWN2XEFobWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Mcv/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWN2XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Mcv/Mehmet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWN2XE1laG1ldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Razor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF6b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Shared/partialview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBhcnRpYWx2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Veri/carpartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaVxjYXJwYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Veri/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaVxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Veri/Components/Akar/carpartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaVxDb21wb25lbnRzXEFrYXJcY2FycGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/Veri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/SampleProjectRepository-master/.Net Core MVC/MiddlewareWWWRootErisim/LastMVCTraining/LastMVCTraining/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

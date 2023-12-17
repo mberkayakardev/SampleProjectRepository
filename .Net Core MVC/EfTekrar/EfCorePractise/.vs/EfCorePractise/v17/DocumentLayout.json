@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\",
+  "WorkspaceRootPath": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|c:\\users\\muhammed berkay akar\\desktop\\efcorepractise\\efcorepractise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Migrations\\20231203170953_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EfCorePractise\\Migrations\\20231203170953_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|c:\\users\\muhammed berkay akar\\desktop\\efcorepractise\\efcorepractise\\datas\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\datas\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\datas\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|c:\\users\\muhammed berkay akar\\desktop\\efcorepractise\\efcorepractise\\datas\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\datas\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\datas\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|c:\\users\\muhammed berkay akar\\desktop\\efcorepractise\\efcorepractise\\datas\\entities\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\datas\\entities\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\datas\\entities\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Muhammed Berkay AKAR\\AppData\\Local\\Temp\\.vsdbgsrc\\67fe071ef2a2588c8d9a5fe9fea047dc357d885ece679eb304a9ab18293908ba\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|c:\\users\\muhammed berkay akar\\desktop\\efcorepractise\\efcorepractise\\migrations\\20231203145441_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\migrations\\20231203145441_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\migrations\\20231203145441_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|d:\\github\\sampleprojectrepository-master\\.net core mvc\\eftekrar\\efcorepractise\\efcorepractise\\migrations\\20231203170953_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBE61BA-B7B8-4DB8-B814-B9C66DFE62F8}|EfCorePractise\\EfCorePractise.csproj|solutionrelative:efcorepractise\\migrations\\20231203170953_mig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,54 +37,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20231203170953_mig2.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Migrations\\20231203170953_mig2.cs",
-              "RelativeDocumentMoniker": "EfCorePractise\\Migrations\\20231203170953_mig2.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Migrations\\20231203170953_mig2.cs",
-              "RelativeToolTip": "EfCorePractise\\Migrations\\20231203170953_mig2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Program.cs",
+              "RelativeDocumentMoniker": "EfCorePractise\\Program.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Program.cs",
+              "RelativeToolTip": "EfCorePractise\\Program.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAgwDcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-03T17:09:53.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
-              "RelativeToolTip": "EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-03T17:09:30.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "EfCorePractise\\Datas\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Category.cs",
-              "RelativeToolTip": "EfCorePractise\\Datas\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-03T17:09:16.172Z",
+              "WhenOpened": "2023-12-03T13:31:32.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "20231203170953_mig2.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Migrations\\20231203170953_mig2.cs",
+              "RelativeDocumentMoniker": "EfCorePractise\\Migrations\\20231203170953_mig2.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Migrations\\20231203170953_mig2.cs",
+              "RelativeToolTip": "EfCorePractise\\Migrations\\20231203170953_mig2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T17:09:53.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
+              "RelativeToolTip": "EfCorePractise\\Datas\\Contexts\\MyDbContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T17:09:30.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "EfCorePractise\\Datas\\Entities\\Category.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Category.cs",
+              "RelativeToolTip": "EfCorePractise\\Datas\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-03T17:09:16.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "20231203145441_InitalCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
               "RelativeDocumentMoniker": "EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
               "RelativeToolTip": "EfCorePractise\\Migrations\\20231203145441_InitalCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Detail.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Detail.cs",
+              "DocumentMoniker": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Detail.cs",
               "RelativeDocumentMoniker": "EfCorePractise\\Datas\\Entities\\Detail.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Detail.cs",
+              "ToolTip": "D:\\Github\\SampleProjectRepository-master\\.Net Core MVC\\EfTekrar\\EfCorePractise\\EfCorePractise\\Datas\\Entities\\Detail.cs",
               "RelativeToolTip": "EfCorePractise\\Datas\\Entities\\Detail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,29 +114,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\AppData\\Local\\Temp\\.vsdbgsrc\\67fe071ef2a2588c8d9a5fe9fea047dc357d885ece679eb304a9ab18293908ba\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\67fe071ef2a2588c8d9a5fe9fea047dc357d885ece679eb304a9ab18293908ba\\Program.cs",
               "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\AppData\\Local\\Temp\\.vsdbgsrc\\67fe071ef2a2588c8d9a5fe9fea047dc357d885ece679eb304a9ab18293908ba\\Program.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\67fe071ef2a2588c8d9a5fe9fea047dc357d885ece679eb304a9ab18293908ba\\Program.cs [Read Only]",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-03T13:33:49.542Z",
               "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Program.cs",
-              "RelativeDocumentMoniker": "EfCorePractise\\Program.cs",
-              "ToolTip": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\EfCorePractise\\EfCorePractise\\Program.cs",
-              "RelativeToolTip": "EfCorePractise\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwO4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-03T13:31:32.087Z",
-              "EditorCaption": ""
             }
           ]
         }
