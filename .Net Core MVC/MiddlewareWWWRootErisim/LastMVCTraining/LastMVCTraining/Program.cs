@@ -30,10 +30,9 @@ app.UseStaticFiles(new StaticFileOptions
 
 app.UseRouting();
 
-
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllerRoute(name: "defaults", pattern: "{Controller=Product}/{Action=Index}/{id?}");
+    endpoints.MapControllerRoute(name: "defaults", pattern: "{Controller=Th}/{Action=Index}/{id?}");
 });
 
 

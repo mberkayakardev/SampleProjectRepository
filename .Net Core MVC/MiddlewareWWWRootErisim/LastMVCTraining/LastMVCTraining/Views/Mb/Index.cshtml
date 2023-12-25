@@ -1,0 +1,26 @@
+﻿@model ProductCarWM
+<form method="post">
+    <div class="form-group">
+        <label>Product Adını gir</label>
+        <input for="Name" type="text" class="form-control" id="exampleInputEmail1" name="@Model.p.Name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input for="Price" type="text" class="form-control" id="exampleInputPassword1" name="Price">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Product</label>
+        <input for="Id" type="text" class="form-control" id="exampleInputPassword1" name="@Model.c.Id">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Car</label>
+        <input for="Id" type="text" class="form-control" id="exampleInputPassword1" name="@Model.p.Id">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputPassword1">Plaka</label>
+        <input for="Plaka" type="text" class="form-control" id="exampleInputPassword1" name="Plaka">
+    </div>
+
+    <button asp-action="Index" asp-controller="Mb" type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -54,6 +54,18 @@ namespace LastMVCTraining.Controllers
             return View("create");
 
         }
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                TempData["Message"] = "İlgili kayıt başarı ile gerçekleşti";
+                return RedirectToAction("Index");
+            }
+            return View("create");
+
+        }
         #endregion
 
         #region Delete 

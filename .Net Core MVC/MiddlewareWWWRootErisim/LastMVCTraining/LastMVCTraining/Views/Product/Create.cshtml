@@ -1,5 +1,5 @@
 ﻿
-<form asp-action="CreateWithForm" asp-controller="Product"  method="post">
+<form method="post">
     <div class="form-group">
         <label>Product Adını gir</label>
         <input for="Name" type="text" class="form-control" id="exampleInputEmail1" name="Name">
@@ -8,5 +8,5 @@
         <label for="exampleInputPassword1">Password</label>
         <input for="Price" type="text" class="form-control" id="exampleInputPassword1" name="Price">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button asp-action="Index" asp-controller="Home" asp-route-id="1856" type="submit" class="btn btn-primary">Submit</button>
 </form>
