@@ -1,0 +1,48 @@
+/* Base CSS : tarayıcı tarafından varsayılan olarak gelen değerler sıfırlanacak*/
+/* Margin otomatik olarak 8 px gelir bunu engellemek istiyoruz.*/
+
+* {
+    margin: 0px;
+}
+
+body{
+    height: 100vh; /* bu aşamada bizler şunu yapmaya çalışıyor sayfa içeriğinde bişi yoksa bile genişlik % 100 olsun bunun peşindeyiz. */
+}
+
+/* Navbar Baslangic */
+.navbar {
+    background-color: black;
+    height: 60px;
+    color: white !important; 
+}
+
+nav .navbar-logo {
+    color: rgb(255, 70, 70);
+    font-size: 30px;
+    font-family: "Electrolize", sans-serif;
+}
+
+.navbar div{
+    display: inline;
+    
+}
+
+nav .navbar-item ul li 
+{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+/* Navbar Bitis */
+
+/* Sidebar Baslangic */
+.sidebar-navbar{
+    background-color: black;
+    height: 100%;
+    width: 60px;
+    color:  white;
+}
+
+
+/* Sidebar Bitis  */
